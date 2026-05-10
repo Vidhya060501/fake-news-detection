@@ -1,0 +1,30 @@
+# Datasets (publicly available, too large)
+LIAR/
+LIAR.zip
+FakeNewsNet/
+FakeNewsNet.zip
+
+# Build scripts (internal tooling)
+build_slides.py
+build_slides_v2.py
+build_slides_v3.py
+build_poster.py
+
+# Slides and poster
+fake_news_slides.pptx
+fake_news_slides_edit.pptx
+fake_news_slides_v2.pptx
+fake_news_slides_v3.pptx
+fake_news_poster.pptx
+24x18_UB_Research_Poster_Template.pptx
+
+# LaTeX source and professor PDF
+fake_news_report.tex
+Formatting_Instructions_For_NeurIPS_2026__2_ (4).pdf
+
+# Internal project notes
+PROJECT_CONTEXT.md
+
+# Temp files
+~$*
+.DS_Store
