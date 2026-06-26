@@ -196,11 +196,14 @@ DistilBERT + Metadata collapses to 50% (random) when transferred from LIAR to Bu
 
 ## 🚀 Future Directions
 
+**Active extension in progress:**
+- [ ] **RAG-based fact verification pipeline** — moving beyond pattern classification toward evidence-grounded verification: claim → live web retrieval (Serper/Bing API) → relevant chunk ranking (FAISS) → LLM reasoning (Groq) → verdict (`TRUE / FALSE / PARTIALLY TRUE / UNVERIFIABLE`) with source citations. When no strong evidence is found, the system returns `UNVERIFIABLE` rather than guessing — same guardrail philosophy as the retrieval systems in my other projects.
+
+**Other planned improvements:**
 - [ ] Replace LIME with SHAP for more stable token-level attributions
 - [ ] Experiment with RoBERTa or DeBERTa as the backbone for the transformer models
 - [ ] Explore claim-speaker relationship modeling (graph-based approaches)
 - [ ] Test cross-lingual fake news detection with mBERT or XLM-R
-- [ ] Add a claim-network graph incorporating speaker-claim co-occurrence patterns
 - [ ] Investigate temporal drift in veracity labels across the LIAR dataset
 
 ---
